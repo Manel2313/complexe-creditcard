@@ -1,0 +1,89 @@
+p{
+    margin: 0
+  }
+  .cardy{
+    width: 484px;
+    height: 295px;
+    background-image: url('./images/background.png');
+    background-size: cover;
+    border: 1px solid #0000b0;
+    border-radius: 25px;
+    margin: 50px auto;
+  }
+  .title{
+    color: white;
+    font-size: 35px;
+    margin: 0;
+    text-align: end;
+    padding: 30px 40px 0 0;
+  }
+  .card-info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px 20px 0 35px;
+  }
+  .numbers{
+    font-size: 20px;
+  }
+  .num-et-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .cardholder{
+    font-weight: 500;
+  }
+  .n-card{
+    display: flex;
+    justify-content: space-around;
+    background: #ffff008f;
+    width: 300px;
+    font-size: 24px;
+    color: #e1f579;
+    text-shadow: 0px 2px 0px #000;
+  }
+  .image-puce{
+    width: 70px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .logo-cards{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+  }
+  .image-master{
+    width: 65px;
+  }
+  .image-visa{
+    width: 65px;
+  }
+  .validite{
+    display: flex;
+    align-items: flex-end;
+  }
+  .thru{
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+  }
+  .val{
+    font-size:8px;
+  }
+  .val-margin{
+    margin-bottom: -3px;
+  }
+
+  .saisie{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .saisie input{
+    font-size: 22px;
+    border: 2px solid #004dff;
+    border-radius: 5px;
+    padding: 5px;
+  }
